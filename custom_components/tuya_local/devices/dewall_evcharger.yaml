@@ -56,22 +56,13 @@ entities:
         type: integer
         optional: true
         name: product_variant
-  - entity: button
-    name: Charge
+  - entity: switch
+    name: ChargeOnOff
     icon: "mdi:ev-station"
     dps:
       - id: 140
         type: boolean
-        optional: true
-        name: button
-  - entity: button
-    name: Stop
-    icon: "mdi:stop"
-    dps:
-      - id: 140
-        type: boolean
-        optional: true
-        name: button
+        name: switch
   - entity: button
     name: Reset
     icon: "mdi:refresh"
